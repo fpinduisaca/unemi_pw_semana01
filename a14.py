@@ -13,3 +13,22 @@ Eres una criatura de la noche	X	        X	        >18	    X
 Cuídate mucho	                X	        X	        <18	    X
 
 """
+genero = input("Indique su género (Masculino/femenino)? ")
+edad = int(input("Indique su edad? "))
+desvelarse = input("Indique si le gusta desvelarse por la madrugada(S/N)?")
+mensaje = ""
+if genero == "m" and edad > 18 and desvelarse == "s":
+    mensaje = "Eres un maestro"
+elif genero == "f" and edad > 18 and desvelarse == "s":
+    mensaje = "Eres una maestra"
+elif genero == "m" and edad < 18 and desvelarse == "n":
+    mensaje = "Eres un hijito de mama"
+elif genero == "f" and edad < 18 and desvelarse == "n":
+    mensaje = "Eres una hijita de mama"
+print(mensaje)
+if desvelarse == "s":
+    if edad > 18:
+        mensaje = "Eres una criatura de la noche"
+    else:
+        mensaje = "Cuidate mucho"
+print(mensaje)

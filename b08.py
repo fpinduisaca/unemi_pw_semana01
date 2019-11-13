@@ -8,3 +8,11 @@ realice las consultas necesario para determinar cómo se trasnforma esas calorí
 y presente el peso que incremento en eso 30 dias, considerar que los datos expuesto son solo de ejemplo,
 el algortimo que realice deberá solicitar eso datos para el calculo.
 """
+actividad = input("indique la actividad del paciente:")
+tiempo = input("ingrese el tiempo que toma el paciente:")
+calorías = 0
+if actividad == "dormir":
+    calorías = 1.08 * tiempo
+elif actividad == "sentado":
+    calorías = 1.66 * tiempo
+print(f"el paciente consume {calorías} calorías");
