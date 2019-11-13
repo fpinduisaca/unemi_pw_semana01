@@ -1,5 +1,6 @@
 """
-13.	Se ingresa la edad y el género de un usuario, se requiere un algoritmo que permita presentar un mensaje considerando la siguiente combinación de valores según las variables ingresadas:
+13.	Se ingresa la edad y el género de un usuario, se requiere un algoritmo que permita presentar un mensaje
+considerando la siguiente combinación de valores según las variables ingresadas:
 GENERO
 MASCULINO	FEMENINO	EDAD	MENSAJE
 X	        	        >18	    YA ERES UN SEÑOR
